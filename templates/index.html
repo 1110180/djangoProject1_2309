@@ -1,11 +1,24 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="{% static 'main.css' %}">
 </head>
 <body>
-    <h2> Главная страница </h2>
-
+{% block menu %}
+    <div class="menu">
+        <a href="{% url 'home' %}"> Главная страница </a>
+        <a href="{% url 'foot' %}"> Футбол </a>
+        <a href="{% url 'basket' %}"> Баскетбол</a>
+        <a href="{% url 'volley' %}"> Волейбол</a>
+    </div>
+{% endblock menu %}
+{% block content %}
+    <div>
+        <img src="{% static 'img/1.jpg' %}" alt="" class="menuimg">
+    </div>
+{% endblock content %}
 </body>
 </html>

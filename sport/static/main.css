@@ -1,0 +1,39 @@
+body{
+    /*text-align: center;*/
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    /*padding: 10px;*/
+    background: #e7e1e1;
+}
+
+.menu{
+    text-decoration: none;
+    color: #100af5;
+    font-size: 1.5em;
+    line-height: 2em;
+}
+
+.menu a:hover{
+    background: rgba(5, 248, 226, 0.6);
+}
+.menuimg{
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.fs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: stretch;
+}
+
+.fs img{
+    width: 25%;
+}
