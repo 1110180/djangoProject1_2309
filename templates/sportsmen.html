@@ -1,0 +1,12 @@
+{% extends 'index.html' %}
+{% load static %}
+
+{% block content %}
+    <div class="fs_img">
+{#        <h2>sportsment</h2>#}
+        <h2>{{ name }}</h2>
+        <img src="{% static pic %}" alt="">
+        <img src="{% static picsport %}" alt="">
+        <h2>{{ desc }}</h2>
+    </div>
+{% endblock content %}

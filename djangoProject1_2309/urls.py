@@ -24,4 +24,5 @@ urlpatterns = [
     path('foot/', views.foot, name='foot'),
     path('basket/', views.basket, name='basket'),
     path('volley/', views.volley, name='volley'),
+    path('foot/smen/<str:sport>/<int:id>/', views.sportsmen, name='smen'),
 ]

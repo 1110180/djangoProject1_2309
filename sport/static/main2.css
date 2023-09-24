@@ -39,3 +39,31 @@ body {
     align-self: center;
 }
 
+.fs img {
+    width: 100%;
+}
+
+.fs img:hover {
+    opacity: 0.5;
+}
+
+.fs_img {
+  text-align: center;
+  padding: 20px;
+}
+
+.fs_img h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.fs_img img {
+  width: 25%;
+  margin-bottom: 10px;
+  border-radius: 50%;
+}
+
+.fs_img p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
